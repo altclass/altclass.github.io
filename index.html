@@ -12,28 +12,30 @@
     })();
   </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AltClass</title>
+  <title>AltClass — Сучасна платформа для тестувань</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
   <link rel="stylesheet" href="/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
-</head>
-<body>
-  <div id="app">
-    <div id="loading-screen" class="loading-screen">
-      <div class="loading-logo">
-        <span class="logo-alt">Alt</span><span class="logo-class">Class</span>
-      </div>
-      <div class="loading-spinner"></div>
-    </div>
-  </div>
-
-  <div id="toast-container"></div>
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.2/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div id="loading-screen" class="loading-screen">
+      <div class="loading-logo"><span class="logo-alt">Alt</span><span class="logo-class">Class</span></div>
+      <div class="loading-spinner"></div>
+      <div class="loading-text">Завантаження платформи...</div>
+    </div>
+  </div>
+  <div id="toast-container"></div>
   <script src="/app.js"></script>
 </body>
 </html>
